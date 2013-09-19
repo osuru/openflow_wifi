@@ -1,0 +1,44 @@
+VAP PHP web controller
+
+This software Requied installed Yii Web Programming Framework (https://github.com/yiisoft/yii)
+
+
+
+INSTALLATION
+
+Please make sure the release file is unpacked under a Web-accessible directory. You shall see the following files and directories:
+  
+  framework/           framework source files
+  requirements/        requirement checker
+  ClientController.php controller managment suite
+ 	DomainController.php manage pools of APs
+ 	GroupController.php  Manage pools of controllers
+ 	PhysicalAp.php       Manage APs physical parameters
+ 	SsidController.php   manage virtual SSID for pool
+ 	VirtualApController.php  manage VAP
+ 	index.php            Start point here
+  CHANGELOG            describing changes in every Yii release
+  LICENSE              license of Yii
+  
+
+REQUIREMENTS
+
+The minimum requirement by Yii is that your Web server supports PHP 5.1.0 or above. Yii has been tested with Apache HTTP server on Windows and Linux operating systems.
+ANd you need NOX with nox_vap.c and WEB module enabled
+
+Please access the following URL to check if your Web server reaches the requirements by Yii, assuming "YiiPath" is where Yii is installed:
+  http://hostname/YiiPath/requirements/index.php
+
+QUICK START
+
+Yii comes with a command line tool called "yiic" that can create a skeleton Yii application for you to start with.
+
+On command line, type in the following commands:
+    $ cd path/manage                (Linux)
+    cd path\manage                  (Windows)
+
+    $ ./yiic webapp ../manage          (Linux)
+    yiic webapp ..\manage              (Windows)
+
+This application will be created at "YiiPath/testdrive". You can access it with the following URL:
+    http://hostname/path/index.php
