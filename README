@@ -1,0 +1,3 @@
+This is module for NOX (http://github.com/noxrepo/nox) and it uses for web management and  communication with VAP (http://github.com/osuru/odin-agent-osu)
+
+Put into NOX /core directory, compile and start with ./nox <parameters> nox_vap <other modules>
