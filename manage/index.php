@@ -5,7 +5,7 @@
 //Дата последней модификации: 20.07.2013
 /*
  * Copyright (C) 2013 Orenburg State University
- *https://github.com/osuru/odin-agent-osu
+ *https://github.com/osuru/openflow_wifi/manage
  * Licensed under the Apache License, Version 2.0 (the "License");
 
  * you may not use this file except in compliance with the License.
